@@ -25,4 +25,5 @@ b = threading.Thread(target=print_2, name="Thread-2")
 
 # starting the threads
 a.start()  
+
 b.start()
