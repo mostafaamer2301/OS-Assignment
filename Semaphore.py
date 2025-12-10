@@ -22,4 +22,6 @@ for i in range(10):
     t.start()
 
 for t in Patient:
+
     t.join()
+    
