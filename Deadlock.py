@@ -40,7 +40,7 @@ thread2 = threading.Thread(target=thread_function_2)
 # Start the threads
 thread1.start()
 thread2.start()
-
 # Wait for both threads to complete
 thread1.join()
+
 thread2.join()
